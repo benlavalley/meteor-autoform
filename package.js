@@ -2,11 +2,11 @@ Package.describe({
   name: 'aldeed:autoform',
   summary: 'Easily create forms with automatic insert and update, and automatic reactive validation.',
   git: 'https://github.com/aldeed/meteor-autoform.git',
-  version: '6.3.0'
+  version: '6.3.1'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.3');
+  api.versionsFrom('METEOR@1.8.1');
 
   // Dependencies
   api.use([
@@ -22,11 +22,11 @@ Package.onUse(function(api) {
     'random',
     'jquery',
     'ecmascript',
-    'momentjs:moment@2.10.6',
+    'momentjs:moment',
   ], 'client');
 
   api.use([
-    'mrt:moment-timezone@0.2.1',
+    'mrt:moment-timezone@0.2.2',
     'aldeed:collection2-core@2.0.0',
     'aldeed:collection2@3.0.0',
     'aldeed:moment-timezone@0.4.0',
