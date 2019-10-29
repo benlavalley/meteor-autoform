@@ -26,9 +26,9 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.use([
-    'mrt:moment-timezone@0.2.2',
+    // 'mrt:moment-timezone@0.2.2', // think this was for an older version of meteor?
     'aldeed:collection2-core@2.0.0',
-    'aldeed:collection2@3.0.0',
+    'aldeed:collection2@3.0.3',
     'aldeed:moment-timezone@0.4.0',
     'reload',
   ], 'client', { weak: true });
